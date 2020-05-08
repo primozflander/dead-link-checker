@@ -21,10 +21,10 @@ public class InspectWebLinks {
 	static String reportData = "";
 
 	public static void main(String[] args) throws IOException {
-
 		
-		inspect("https://www.meisterlabs.com");
+		inspect("https://www.example.com");
 		generate_report(reportData,"C:\\Users\\HP\\Desktop\\report.txt");
+		
 	}
 	
 	
