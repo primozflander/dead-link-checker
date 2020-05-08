@@ -8,8 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Java 13.0.2
-Jsoup 1.13.1
+1. Java 13.0.2
+2. Jsoup 1.13.1
 
 ## Deployment
 
@@ -38,7 +38,7 @@ $ java InspectWebLinks.java
 Command prompt will output results and corresponding report.txt will be generated.
 
 ```
-$ Example: 27 15 May the Force be with you | max_pix = 3
+$ Example output: ...Finished! ( 0 empty) (22 skipped) ( 0 broken) ( 3 valid)
 ```
 
 ## Authors
