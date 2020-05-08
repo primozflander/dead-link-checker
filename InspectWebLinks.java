@@ -22,7 +22,7 @@ public class InspectWebLinks {
 
 	public static void main(String[] args) throws IOException {
 		
-		inspect("https://www.example.com");
+		inspect("https://primozflander.wordpress.com/");
 		generate_report(reportData,"C:\\Users\\HP\\Desktop\\report.txt");
 		
 	}
@@ -38,10 +38,10 @@ public class InspectWebLinks {
 
 	
 	private static int check_link(String url) {
-		
-		if(url == null || url.isEmpty()){	
-			return 0;
-		}
+//		
+//		if(url == null || url.isEmpty()){	
+//			return 0;
+//		}
 		Response response;
 		try {
 			response = Jsoup.connect(url).execute();
