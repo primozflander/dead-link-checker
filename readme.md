@@ -38,7 +38,7 @@ $ java InspectWebLinks.java
 Command prompt will output results and corresponding report.txt will be generated.
 
 ```
-$ Example output: ...Finished! ( 0 empty) (22 skipped) ( 0 broken) ( 3 valid)
+$ ...Finished! ( 0 empty) (22 skipped) ( 0 broken) ( 3 valid)
 ```
 
 ## Authors
